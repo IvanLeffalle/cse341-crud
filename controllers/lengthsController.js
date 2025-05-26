@@ -17,6 +17,9 @@ const getLengths = async (req, res) => {
 
 const getLengthsById = async (req, res) => {
   //#Swagger-tags=["Lengths"]
+  if (!ObjectId.isValid(req.params.id)) {
+    return res.status(400).json({ error: "Invalid ID format" });
+  }
   const id = req.params.id;
   try {
     const db = mongodb.getDb();
@@ -56,6 +59,9 @@ const createLength = async (req, res) => {
 };
 
 const updateLength = async (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    return  res.status(400).json({ error: "Invalid ID format" });
+  }
   //#Swagger-tags=["Lengths"]
   const id = new ObjectId(req.params.id);
   const newLength = {

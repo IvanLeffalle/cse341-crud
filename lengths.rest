@@ -3,15 +3,14 @@
 ###GET all lengths
 GET http://localhost:3000/lengths
 ###GET length by id
-GET http://localhost:3000/lengths/6832335b185b3ba5c8d90952
+GET http://localhost:3000/lengths/ggg
 ###POST create length
 POST http://localhost:3000/lengths
 Content-Type: application/json
 
 {
   "code": "5.1",
-  "name": "string",
-  "length_mm": 18.5
+  "name": "string"
 }
 
 ###PUT update length
