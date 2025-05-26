@@ -5,10 +5,10 @@
     "description": "API for managing approximate tooth lengths",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-crud-jg27.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
