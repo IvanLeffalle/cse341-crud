@@ -5,11 +5,9 @@
     "description": "API for managing approximate tooth lengths",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-crud-jg27.onrender.com",
   "basePath": "/",
-  "schemes": [
-    "http"
-  ],
+  "schemes": ["https"],
   "paths": {
     "/": {
       "get": {
@@ -34,9 +32,7 @@
     "/lengths/": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "responses": {
           "200": {
             "description": "OK"
@@ -84,9 +80,7 @@
     "/lengths/{id}": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "parameters": [
           {
             "name": "id",
@@ -182,9 +176,7 @@
     "/kFiles/": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "responses": {
           "200": {
             "description": "OK"
@@ -232,9 +224,7 @@
     "/kFiles/{id}": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "parameters": [
           {
             "name": "id",
