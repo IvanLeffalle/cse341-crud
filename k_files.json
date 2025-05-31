@@ -1,0 +1,21 @@
+[
+  { "file": "K", "size": "06", "color_code": "pink" },
+  { "file": "K", "size": "08", "color_code": "gray" },
+  { "file": "K", "size": "10", "color_code": "purple" },
+  { "file": "K", "size": "15", "color_code": "white" },
+  { "file": "K", "size": "20", "color_code": "yellow" },
+  { "file": "K", "size": "25", "color_code": "red" },
+  { "file": "K", "size": "30", "color_code": "blue" },
+  { "file": "K", "size": "35", "color_code": "green" },
+  { "file": "K", "size": "40", "color_code": "black" },
+  { "file": "K", "size": "45", "color_code": "white" },
+  { "file": "K", "size": "50", "color_code": "yellow" },
+  { "file": "K", "size": "55", "color_code": "red" },
+  { "file": "K", "size": "60", "color_code": "blue" },
+  { "file": "K", "size": "70", "color_code": "green" },
+  { "file": "K", "size": "80", "color_code": "black" },
+  { "file": "K", "size": "90", "color_code": "white" },
+  { "file": "K", "size": "100", "color_code": "yellow" },
+  { "file": "K", "size": "110", "color_code": "red" },
+  { "file": "K", "size": "120", "color_code": "blue" }
+]
